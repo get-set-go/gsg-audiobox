@@ -4,6 +4,6 @@ export default class GSGSource extends React.Component {
   render() {
     const { _item } = this.props;
 
-    return <source src={_item.props.src} type={_item.props.type} />;
+    return <source src={_item.props.bUrl} type={_item.props.bType} />;
   }
 };
