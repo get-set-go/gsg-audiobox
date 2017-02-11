@@ -1,7 +1,7 @@
 {
-  "name": "gsg-badge",
-  "version": "0.0.8",
-  "description": "Get-Set-Go badge component",
+  "name": "gsg-audiobox",
+  "version": "0.0.1",
+  "description": "Get-Set-Go audiobox component",
   "main": "dist/index.min.js",
   "scripts": {
     "serve:dev": "webpack-dev-server --config \"./configs/build/dev.webpack.config.js\" --content-base src/ --progress -d --watch",
@@ -18,21 +18,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/get-set-go/gsg-badge.git"
+    "url": "git+https://github.com/get-set-go/gsg-audiobox.git"
   },
   "keywords": [
     "Get-Set-Go",
     "React",
     "Components",
     "Bootstrap",
-    "Badge"
+    "Audio",
+    "AudioBox"
   ],
   "author": "Ashwin Hegde <ashwin.hegde3@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/get-set-go/gsg-badge/issues"
+    "url": "https://github.com/get-set-go/gsg-audiobox/issues"
   },
-  "homepage": "https://github.com/get-set-go/gsg-badge#readme",
+  "homepage": "https://github.com/get-set-go/gsg-audiobox#readme",
   "dependencies": {
     "classnames": "^2.2.5",
     "gsg-common-style": "https://github.com/get-set-go/gsg-common-style.git",
